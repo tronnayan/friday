@@ -161,5 +161,9 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
-</resources>	
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Screen off playback control</string>
+    <string name="volume_rocker_music_controls_summary">Hold volume keys to seek audio tracks when screen is off</string>
+	
 </resources>
