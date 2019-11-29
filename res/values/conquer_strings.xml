@@ -186,5 +186,10 @@
     <string name="action_volume_panel">Volume panel</string>  
     <string name="action_screen_off">Screen off</string>
     <string name="action_screenshot">Screenshot</string>
+
+    <!-- QS battery estimates -->
+    <string name="qs_customization_cateegory_title">QS Customization</string>
+    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
 	
 </resources>

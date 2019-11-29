@@ -17,6 +17,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/interface_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <PreferenceCategory
+        android:key="qs_customization"
+        android:title="@string/qs_customization_cateegory_title">
+
+        <com.conquer.settingss.SystemSettingSwitchPreference
+            android:key="qs_show_battery_estimate"
+            android:title="@string/qs_show_battery_estimate_title"
+            android:summary="@string/qs_show_battery_estimate_summary"
+            android:defaultValue="true"/>
+
+        </PreferenceCategory>
 			
 	<PreferenceCategory
         android:title="@string/animations_options_category_title">
