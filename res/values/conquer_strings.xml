@@ -191,5 +191,9 @@
     <string name="qs_customization_cateegory_title">QS Customization</string>
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
     <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+
+    <!-- OxygenOS Clear Button FAB -->
+    <string name="enable_clear_all_button">Replace clear all text with nice button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
 	
 </resources>
