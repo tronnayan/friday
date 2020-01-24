@@ -195,5 +195,9 @@
     <!-- OxygenOS Clear Button FAB -->
     <string name="enable_clear_all_button">Replace clear all text with nice button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
-	
+
+    <!-- QS Brightness slider possition -->
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>	
+
 </resources>
