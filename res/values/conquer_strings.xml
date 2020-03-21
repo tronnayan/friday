@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019 The ConquerOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="settings_title">Personalization</string>
+
+    <!-- Categories -->
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">See another customization options</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+	
+    <!-- ROM Info -->
+    <string name="rom_info_title">About ConquerOS</string>
+    <string name="rom_info_summary">Know more about us!</string>
+    <string name="rom_summary">ConquerOS is an AOSP based custom ROM with additional features, and redefined UI to give best experience when using it.</string>
+    <string name="developers_category">Developers</string>
+    <string name="dev1">HeroBuxx (Alif Fathur)</string>
+    <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
+    <string name="dev2">ZInadin Zidan</string>
+    <string name="dev2_summary">Core Developer</string>
+    <string name="dev3">Chachinito (Chachi Desuasido)</string>
+    <string name="dev3_summary">Co-Lead developer, source mainatiner. project manager, device maintainer</string>
+	<string name="dev4">vishalcj17 (Vishal Cj)</string>
+    <string name="dev4_summary">Project manager, device maintainer</string>
+    <string name="dev5">Speedhorn (Manish Kandpal)</string>
+    <string name="dev5_summary">Project manager, device maintainer</string>
+    
+	<!-- Links -->
+	<string name="links_category">Links</string>
+    <string name="github">GitHub</string>
+    <string name="github_summary">See our source code.</string>
+    <string name="website">Website</string>
+    <string name="website_summary">Our project website.</string>	
+    <string name="tg_chat">Telegram group chat</string>
+    <string name="tg_chat_summary">Join our community on Telegram!</string>
+    <string name="tg_channel">Telegram updates channel</string>
+    <string name="tg_channel_summary">Get notified when new updates are come!</string>
+	
+    <!-- Maintainers -->
+    <string name="mainatiner_category">Device maintainer</string>
+    <string name="mido_dev">Redmi Note 4/4X</string>
+    <string name="mido_dev_summary">HeroBuxx (Alif Fathur)</string>
+    <string name="rosy_dev">Redmi 5</string>
+    <string name="rosy_dev_summary">"Vishal Cj ; Manish Kandpal"</string>
+    <string name="lavender_dev">Redmi Note 7/7S</string>
+    <string name="lavender_dev_summary">Zugeng Owen</string>
+    <string name="ysl_dev">Redmi Y2/S2</string>
+    <string name="ysl_dev_summary">Thinker J</string>
+    <string name="platina_dev">Mi 8 Lite</string>
+    <string name="platina_dev_summary">alikunzZz</string>	
+
+    <!-- Contributors -->
+    <string name="contributors_category">Contributors</string>
+    <string name="ali">alikunzZz</string>
+    <string name="ali_summary">Wallpaper designer</string>
+    <string name="salvatore">sasi2006165</string>
+    <string name="salvatore_summary">Wallpaper designer</string>
+
+</resources>
