@@ -18,6 +18,22 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/settings_title" >
 
+        <!-- Statusbar -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/statusbar_title" 
+			android:summary="@string/statusbar_summary"
+            android:fragment="com.conquer.settings.fragments.Statusbar"
+            android:icon="@drawable/ic_settings_statusbar"/>
+	
+        <!-- Lockscreen -->
+        <Preference
+            android:key="lockscreen_category"
+            android:title="@string/lockscreen_title" 
+			android:summary="@string/lockscreen_summary"
+            android:fragment="com.conquer.settings.fragments.Lockscreen"
+            android:icon="@drawable/ic_settings_lockscreen"/>
+			
         <!-- Misc -->
         <Preference
             android:key="misc_category"
