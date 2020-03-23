@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016-2018 crDroid Android Project
+ * Copyright (C) 2017 AICP
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,13 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 package com.conquer.settings.preferences;
 
 import android.content.ContentResolver;
 import android.preference.PreferenceDataStore;
 import android.provider.Settings;
 
-public class GlobalSettingsStore extends androidx.preference.PreferenceDataStore
+public class GlobalSettingsStore extends android.support.v7.preference.PreferenceDataStore
         implements PreferenceDataStore {
 
     private ContentResolver mContentResolver;
@@ -68,4 +69,5 @@ public class GlobalSettingsStore extends androidx.preference.PreferenceDataStore
     public void putString(String key, String value) {
         Settings.Global.putString(mContentResolver, key, value);
     }
+
 }

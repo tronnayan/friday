@@ -38,7 +38,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-com.conquer.settings.preferences.SecureSettingListPreference;
+import com.conquer.settings.preferences.SecureSettingListPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
 
