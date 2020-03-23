@@ -33,11 +33,17 @@
             android:entries="@array/torch_power_button_gesture_entries"
             android:entryValues="@array/torch_power_button_gesture_values" />
 
-        <com.android.settings.aquarios.SystemSettingSwitchPreference
+        <com.conquer.settings.preferences.SystemSettingSwitchPreference
             android:key="volume_button_music_control"
             android:title="@string/volume_rocker_music_controls_title"
             android:summary="@string/volume_rocker_music_controls_summary"
             android:defaultValue="false" />
+
+        <com.conquer.settings.preferences.SystemSettingSwitchPreference
+            android:key="swap_volume_buttons"
+            android:title="@string/swap_volume_buttons_title"
+            android:summary="@string/swap_volume_buttons_summary"
+            android:defaultValue="true" />
 			
     </PreferenceCategory>
 	

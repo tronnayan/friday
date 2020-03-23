@@ -165,5 +165,9 @@
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Screen off playback control</string>
     <string name="volume_rocker_music_controls_summary">Hold volume keys to seek audio tracks when screen is off</string>
+
+    <!-- Volume key rotation -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
 	
 </resources>
