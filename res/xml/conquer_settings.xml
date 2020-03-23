@@ -25,7 +25,15 @@
 			android:summary="@string/statusbar_summary"
             android:fragment="com.conquer.settings.fragments.Statusbar"
             android:icon="@drawable/ic_settings_statusbar"/>
-	
+
+        <!-- Interface -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/inetrface_title" 
+			android:summary="@string/inetface_summary"
+            android:fragment="com.conquer.settings.fragments.Interface"
+            android:icon="@drawable/ic_settings_looks"/>
+			
         <!-- Lockscreen -->
         <Preference
             android:key="lockscreen_category"

@@ -20,8 +20,10 @@
     <!-- Categories -->
     <string name="statusbar_title">Status bar</string>
     <string name="statusbar_summary">Customize your status bar</string>
+    <string name="interface_title">Interface</string>
+    <string name="interface_summary">Cuztomize your device interface</string>	
     <string name="lockscreen_title">Lockscreen</string>
-    <string name="lockscreen_summary">GIve a good looks on your lock screen</string>
+    <string name="lockscreen_summary">Give a good looks on your lock screen</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">See another customization options</string>
 
@@ -88,4 +90,10 @@
     <string name="salvatore">sasi2006165</string>
     <string name="salvatore_summary">Wallpaper designer</string>
 
+    <!-- Screen Off animation --> 
+    <string name="animations_options_category_title">Animations</string>
+    <string name="screen_off_animation_title">Screen off animation</string> 
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string> 
+    <string name="screen_off_animation_scale">Scale</string> 
 </resources>
