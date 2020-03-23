@@ -64,5 +64,4 @@
             android:key="global_actions_screenrecord"
             android:title="@string/powermenu_screenrecord_title"
             android:defaultValue="false" />
-    </PreferenceCategory>
 </PreferenceScreen>

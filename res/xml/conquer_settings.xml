@@ -29,8 +29,8 @@
         <!-- Interface -->
         <Preference
             android:key="statusbar_category"
-            android:title="@string/inetrface_title" 
-			android:summary="@string/inetface_summary"
+            android:title="@string/interface_title" 
+            android:summary="@string/interface_summary"
             android:fragment="com.conquer.settings.fragments.Interface"
             android:icon="@drawable/ic_settings_looks"/>
 

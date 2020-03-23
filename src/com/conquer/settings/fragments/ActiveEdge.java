@@ -171,7 +171,7 @@ public class ActiveEdge extends SettingsPreferenceFragment implements
                                                                             boolean enabled) {
                     final ArrayList<SearchIndexableResource> result = new ArrayList<>();
                     final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.active_edge;
+                    sir.xmlResId = R.xml.conquer_settings_active_edge;
 
                     if (context.getPackageManager().hasSystemFeature(
                             "android.hardware.sensor.assist")) {

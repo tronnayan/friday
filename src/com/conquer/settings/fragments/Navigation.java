@@ -29,25 +29,24 @@ import android.provider.Settings;
 import android.widget.Toast;
 
 import com.android.internal.util.conquer.ConquerUtils;
-import com.android.internal.logging.nano.MetricsProto; 
+import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.conquer.settings.R;
 
-public class Navigation extends SettingsPreferenceFragment {
-
-    public static final String TAG = "Navigation";
+public class Navigation extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     private ListPreference mTorchPowerButton;
-	
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.conquer_settings_navigation);
-		
+
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
@@ -89,7 +88,7 @@ public class Navigation extends SettingsPreferenceFragment {
         }
          return false;
     }
-	
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CONQUEROS;

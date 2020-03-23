@@ -32,42 +32,41 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.conquer.settings.R;
 
-public class Interface extends SettingsPreferenceFragment {
+public class Interface extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     public static final String TAG = "Interface";
     private static final String SCREEN_OFF_ANIMATION = "screen_off_animation"; 
 
     private ListPreference mScreenOffAnimation;
-	
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.conquer_settings_interface);
-		
+
 		final ContentResolver resolver = getActivity().getContentResolver();
-		
-		// Screen Off Animations 
-        mScreenOffAnimation = (ListPreference) findPreference(SCREEN_OFF_ANIMATION); 
-        int screenOffStyle = Settings.System.getInt(resolver, 
-                 Settings.System.SCREEN_OFF_ANIMATION, 0); 
-        mScreenOffAnimation.setValue(String.valueOf(screenOffStyle)); 
-        mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry()); 
-        mScreenOffAnimation.setOnPreferenceChangeListener(this); 
+
+		// Screen Off Animations
+        mScreenOffAnimation = (ListPreference) findPreference(SCREEN_OFF_ANIMATION);
+        int screenOffStyle = Settings.System.getInt(resolver,
+                 Settings.System.SCREEN_OFF_ANIMATION, 0);
+        mScreenOffAnimation.setValue(String.valueOf(screenOffStyle));
+        mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
+        mScreenOffAnimation.setOnPreferenceChangeListener(this);
     }
 
-    @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-      if (preference == mScreenOffAnimation) { 
-            Settings.System.putInt(getContentResolver(), 
-                    Settings.System.SCREEN_OFF_ANIMATION, Integer.valueOf((String) newValue)); 
-            int valueIndex = mScreenOffAnimation.findIndexOfValue((String) newValue); 
-            mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[valueIndex]); 
-            return true; 
-        } 
+      if (preference == mScreenOffAnimation) {
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.SCREEN_OFF_ANIMATION, Integer.valueOf((String) newValue));
+            int valueIndex = mScreenOffAnimation.findIndexOfValue((String) newValue);
+            mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[valueIndex]);
+            return true;
+        }
         return false;
     }
-	
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CONQUEROS;

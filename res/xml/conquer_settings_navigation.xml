@@ -54,7 +54,7 @@
     </PreferenceCategory>
 	
 	<PreferenceCategory
-        android:title="@string/anconquer_gesture_title">
+        android:title="@string/conquer_gesture_title">
 		
         <Preference
             android:key="active_edge_category"
