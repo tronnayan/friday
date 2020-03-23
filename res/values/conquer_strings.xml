@@ -22,7 +22,9 @@
     <string name="statusbar_summary">Customize your status bar</string>
     <string name="interface_title">Interface</string>
     <string name="interface_summary">Cuztomize your device interface</string>	
-    <string name="lockscreen_title">Lockscreen</string>
+    <string name="navigation_title">Navigation and Buttons</string>
+    <string name="navigation_summary">Change device navigation and buttons preference</string>	    
+	<string name="lockscreen_title">Lockscreen</string>
     <string name="lockscreen_summary">Give a good looks on your lock screen</string>
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_summary">See another customization options</string>
@@ -96,4 +98,15 @@
     <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string> 
     <string name="screen_off_animation_scale">Scale</string> 
+
+    <!-- Active edge -->
+    <string name="conquer_gesture_title">Navigation gesture</string>
+    <string name="active_edge_short_actions_title">Short squeeze action</string>
+    <string name="active_edge_long_actions_title">Long squeeze action</string>
+    <string name="active_edge_sensitivity_title">Squeeze sensitivity</string>
+    <string name="active_edge_wake_title">Allow when screen is off</string>
+    <string name="active_edge_wake_summary">Trigger an action when the screen is off</string>
+    <string name="active_edge_footer_info">Not all squeeze actions within Active Edge have the capability to activate the display</string>
+
+	
 </resources>

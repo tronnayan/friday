@@ -33,6 +33,14 @@
 			android:summary="@string/inetface_summary"
             android:fragment="com.conquer.settings.fragments.Interface"
             android:icon="@drawable/ic_settings_looks"/>
+
+        <!-- Navigation -->
+        <Preference
+            android:key="statusbar_category"
+            android:title="@string/navigation_title" 
+			android:summary="@string/navigation_summary"
+            android:fragment="com.conquer.settings.fragments.Navigation"
+            android:icon="@drawable/ic_settings_navigation"/>
 			
         <!-- Lockscreen -->
         <Preference
