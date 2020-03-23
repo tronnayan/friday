@@ -156,6 +156,6 @@ public class Statusbar extends SettingsPreferenceFragment implements Preference.
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CONQUER;
+        return MetricsProto.MetricsEvent.CONQUEROS;
     }
 }
