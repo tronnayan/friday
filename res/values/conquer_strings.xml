@@ -108,5 +108,20 @@
     <string name="active_edge_wake_summary">Trigger an action when the screen is off</string>
     <string name="active_edge_footer_info">Not all squeeze actions within Active Edge have the capability to activate the display</string>
 
+    <!-- Power menu -->
+	<string name="powermenu_fragment_title">Power menu</string>
+	<string name="powermenu_fragment_summary">Change power menu option</string>
+    <string name="powermenu_power_title">Power</string>
+    <string name="powermenu_reboot_title">Restart</string>
+    <string name="powermenu_advanced_restart_title">Advanced reboot</string>
+    <string name="powermenu_advanced_restart_summary">Enables access to recovery and bootloader</string>
+    <string name="powermenu_lockdown_title">Lockdown</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_airplane_title">Airplane Mode</string>
+    <string name="powermenu_emergency_title">Emergency</string>
+    <string name="powermenu_flashlight_title">Flashlight</string>
+    <string name="powermenu_screenrecord_title">Screenrecord</string>
 	
+	<!-- HW Buttons Configuration category -->
+    <string name="hw_buttons_category">Buttons</string>	
 </resources>
