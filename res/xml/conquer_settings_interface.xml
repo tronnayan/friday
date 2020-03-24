@@ -22,12 +22,6 @@
         android:key="qs_customization"
         android:title="@string/qs_customization_cateegory_title">
 
-        <com.conquer.settings.SystemSettingSwitchPreference
-            android:key="qs_show_battery_estimate"
-            android:title="@string/qs_show_battery_estimate_title"
-            android:summary="@string/qs_show_battery_estimate_summary"
-            android:defaultValue="true"/>
-
         <com.conquer.settings.preferences.SystemSettingSwitchPreference
             android:key="dismiss_all_button"
             android:title="@string/enable_clear_all_button"
