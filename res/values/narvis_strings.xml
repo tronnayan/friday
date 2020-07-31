@@ -18,12 +18,6 @@
     <string name="settings_title">Personalization</string>
 
     <!-- Categories -->
-    <string name="statusbar_title">Status bar</string>
-    <string name="statusbar_summary">Customize your status bar</string>
-    <string name="interface_title">Interface</string>
-    <string name="interface_summary">Cuztomize your device interface</string>	
-    <string name="navigation_title">Navigation and Buttons</string>
-    <string name="navigation_summary">Change device navigation and buttons preference</string>	    
     <string name="lockscreen_title">Lockscreen</string>
     <string name="lockscreen_summary">Give a good looks on your lock screen</string>
     <string name="misc_title">Miscellaneous</string>
@@ -52,7 +46,7 @@
     <string name="developers_category">Developers</string>
     <string name="dev1">Nayan Arora</string>
     <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
-    <string name="dev2">Zihad</string>
+    <string name="dev2">Zed</string>
     <string name="dev2_summary">Core Developer</string>
     <string name="dev3">Jamie H</string>
     <string name="dev3_summary">Co-Lead developer, source mainatiner. project manager, device maintainer</string>
@@ -75,13 +69,13 @@
     <string name="sakura_dev">Redmi 6 Pro</string>
     <string name="sakura_dev_summary">Nayan Arora</string>
     <string name="rosy_dev">Redmi 5</string>
-    <string name="rosy_dev_summary">"ElytrA8 ; Adnan"</string>
+    <string name="rosy_dev_summary">ElytrA8</string>
     <string name="curtana_dev">Redmi Note 9S</string>
     <string name="curtana_dev_summary">Jamie h</string>
 
     <!-- Contributors -->
     <string name="contributors_category">Contributors</string>
-    <string name="asta">mysto_o</string>
+    <string name="asta">Geo Emmanuel</string>
     <string name="asta_summary">Animation designer</string>
 
     <!-- Screen Off animation --> 

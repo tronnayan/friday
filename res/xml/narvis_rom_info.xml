@@ -37,7 +37,7 @@
             android:icon="@drawable/ic_dev" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/zed_is_nub_btw" />
+            android:data="https://t.me/IMZihad21" />
         </Preference>
 			
         <Preference
