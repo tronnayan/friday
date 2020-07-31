@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 NarvisOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="settings_title">Personalization</string>
+
+    <!-- Categories -->
+    <string name="statusbar_title">Status bar</string>
+    <string name="statusbar_summary">Customize your status bar</string>
+    <string name="interface_title">Interface</string>
+    <string name="interface_summary">Cuztomize your device interface</string>	
+    <string name="navigation_title">Navigation and Buttons</string>
+    <string name="navigation_summary">Change device navigation and buttons preference</string>	    
+    <string name="lockscreen_title">Lockscreen</string>
+    <string name="lockscreen_summary">Give a good looks on your lock screen</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="misc_summary">See another customization options</string>
+
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+	
+    <!-- ROM Info -->
+    <string name="rom_info_title">About NarvisOS</string>
+    <string name="rom_info_summary">Know more about us!</string>
+    <string name="rom_summary">Expect the Unexpected !</string>
+    <string name="developers_category">Developers</string>
+    <string name="dev1">Nayan Arora</string>
+    <string name="dev1_summary">Lead developer, source mainatiner. UI/UX developer, device maintainer</string>
+    <string name="dev2">Zihad</string>
+    <string name="dev2_summary">Core Developer</string>
+    <string name="dev3">Jamie H</string>
+    <string name="dev3_summary">Co-Lead developer, source mainatiner. project manager, device maintainer</string>
+    <string name="dev4">ElytrA8</string>
+    <string name="dev4_summary">device maintainer</string>
+    
+	<!-- Links -->
+    <string name="links_category">Links</string>
+    <string name="github">GitHub</string>
+    <string name="github_summary">See our source code.</string>
+    <string name="website">Website</string>
+    <string name="website_summary">Our project website.</string>	
+    <string name="tg_chat">Telegram group chat</string>
+    <string name="tg_chat_summary">Join our community on Telegram!</string>
+    <string name="tg_channel">Telegram updates channel</string>
+    <string name="tg_channel_summary">Get notified when new updates are come!</string>
+	
+    <!-- Maintainers -->
+    <string name="mainatiner_category">Device maintainer</string>
+    <string name="sakura_dev">Redmi 6 Pro</string>
+    <string name="sakura_dev_summary">Nayan Arora</string>
+    <string name="rosy_dev">Redmi 5</string>
+    <string name="rosy_dev_summary">"ElytrA8 ; Adnan"</string>
+    <string name="curtana_dev">Redmi Note 9S</string>
+    <string name="curtana_dev_summary">Jamie h</string>
+
+    <!-- Contributors -->
+    <string name="contributors_category">Contributors</string>
+    <string name="asta">mysto_o</string>
+    <string name="asta_summary">Animation designer</string>
+
+    <!-- Screen Off animation --> 
+    <string name="animations_options_category_title">Animations</string>
+    <string name="screen_off_animation_title">Screen off animation</string> 
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string> 
+    <string name="screen_off_animation_scale">Scale</string> 
+
+    <!-- Active edge -->
+    <string name="narvis_gesture_title">Navigation gesture</string>
+    <string name="active_edge_title">Active Edge</string>
+    <string name="active_edge_summary">Assign SmartActions to Pixel\'s squeeze feature</string>
+    <string name="active_edge_short_actions_title">Short squeeze action</string>
+    <string name="active_edge_long_actions_title">Long squeeze action</string>
+    <string name="active_edge_sensitivity_title">Squeeze sensitivity</string>
+    <string name="active_edge_wake_title">Allow when screen is off</string>
+    <string name="active_edge_wake_summary">Trigger an action when the screen is off</string>
+    <string name="active_edge_footer_info">Not all squeeze actions within Active Edge have the capability to activate the display</string>
+
+    <!-- Power menu -->
+    <string name="powermenu_fragment_title">Power menu</string>
+    <string name="powermenu_fragment_summary">Change power menu option</string>
+    <string name="powermenu_power_title">Power</string>
+    <string name="powermenu_reboot_title">Restart</string>
+    <string name="powermenu_advanced_restart_title">Advanced reboot</string>
+    <string name="powermenu_advanced_restart_summary">Enables access to recovery and bootloader</string>
+    <string name="powermenu_lockdown_title">Lockdown</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_airplane_title">Airplane Mode</string>
+    <string name="powermenu_emergency_title">Emergency</string>
+    <string name="powermenu_flashlight_title">Flashlight</string>
+    <string name="powermenu_screenrecord_title">Screenrecord</string>
+	
+	<!-- HW Buttons Configuration category -->
+    <string name="hw_buttons_category">Buttons</string>	
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Flashlight toggle</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response)</string>
+    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Clock</string>
+    <string name="status_bar_clock_summary">Click for possible clock options</string>
+    <string name="status_bar_show_clock_title">Show clock &amp; date</string>
+    <string name="clock_title_enable">Alignment</string>
+    <string name="status_bar_clock_seconds_title">Clock seconds</string>
+    <string name="status_bar_clock_seconds_summary">Display seconds next to clock in status bar</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="am_pm_clock_normal">Normal font size</string>
+    <string name="am_pm_clock_small">Small font size</string>
+    <string name="am_pm_clock_none">Don\'t show</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="menu_cancel">Cancel</string>
+    <string name="menu_save">Save</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Screen off playback control</string>
+    <string name="volume_rocker_music_controls_summary">Hold volume keys to seek audio tracks when screen is off</string>
+
+    <!-- Volume key rotation -->
+    <string name="swap_volume_buttons_title">Reorient</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+
+    <!--Volume Rocker Wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Custom actions -->
+    <string name="action_nothing">No action</string>
+    <string name="action_search">Assistant</string>
+    <string name="action_voice_search">Voice search</string>
+    <string name="action_launch_camera">Camera</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_volume_panel">Volume panel</string>  
+    <string name="action_screen_off">Screen off</string>
+    <string name="action_screenshot">Screenshot</string>
+
+    <string name="qs_customization_cateegory_title">QS Customization</string>
+
+    <!-- OxygenOS Clear Button FAB -->
+    <string name="enable_clear_all_button">Replace clear all text with nice button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+
+    <!-- QS Brightness slider possition -->
+    <string name="qs_brightness_position_bottom_title">Brightness slider at bottom</string>
+    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>	
+
+    <string name="media_art_title">Media artwork</string>
+    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+
+</resources>
